@@ -11,5 +11,6 @@ struct TextDocuments {
 typedef struct TextDocuments TextDocuments; 
 
 void init_text_documents(struct TextDocuments *td,char *filename);
-
+long getLine(struct TextDocuments *td, long lineNo, char *buf,long size_t);
+long lineCount(struct TextDocuments *td);
 #endif /*TEXT_DOCUMENT_H */

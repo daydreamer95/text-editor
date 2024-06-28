@@ -1,5 +1,3 @@
 #include "text_document.h"
+#include <stdbool.h>
 
-void init_text_documents(struct TextDocuments *td,char *filename){
-    
-}
